@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
    int number,a,b,c;
-   
+
 cout << " First number please_ : \n " ;
 cin>>a;
 cout << " Second number please_ : \n " ;
@@ -11,18 +11,28 @@ cout << " Third number please_ : \n " ;
 cin>>c;
 
 
-if ( a>b)
+if ( a>b && a>c)
    {
        cout<<" First number is greater than the other two \n " ;
-   
+
 }
-else if ( b>a)
+if ( b>a && b>c)
 {
     cout << " Second number is greater than the other two \n " ;
 }
-else if ( c>a>b )
+if ( c>a && c>b )
 { 
     cout << " Third is the greatest \n " ;
 }
 
+//Showing if number is even or odd
+
+ if ( a%2==0  )
+ {
+     cout << " A is even \n " ;
+ }
+ else
+ {
+     cout << " A is odd \n " ; 
+ }
 }
