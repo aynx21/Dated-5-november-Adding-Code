@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int number,a,b,c;
+   
+cout << " First number please_ : \n " ;
+cin>>a;
+cout << " Second number please_ : \n " ;
+cin>>b;
+cout << " Third number please_ : \n " ;
+cin>>c;
+
+
+if ( a>b)
+   {
+       cout<<" First number is greater than the other two \n " ;
+   
+}
+else if ( b>a)
+{
+    cout << " Second number is greater than the other two \n " ;
+}
+else if ( c>a>b )
+{ 
+    cout << " Third is the greatest \n " ;
+}
+
+}
